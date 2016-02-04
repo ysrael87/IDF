@@ -1,0 +1,104 @@
+# IDF
+
+package Meth;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+/**
+ * Created by Ysrael on 1/29/16.
+ */
+public class test3 {
+
+    public static WebElement element = null;
+
+    public static void clickJoinOurCommunity(WebDriver driver) {
+
+        driver.findElement(By.xpath("/html/body/div[1]/main/header/div[3]/div/nav/div[2]/div/ul/li[2]/a")).click();
+    }
+
+    public static void clickFirstBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[1]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeFirstBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+    public static void clickSecondBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeSecondBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+    public static void clickThirdBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[3]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeThirdBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+    public static void clickFourthBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[4]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeFourthBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+    public static void clickFithBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[5]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeFithBenefit(WebDriver driver) {
+
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+    public static void clickSithBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[6]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeSithBenefit(WebDriver driver) {
+
+        driver.findElement(By.cssSelector("html.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.no-touch.geolocation.postmessage.no-websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.no-cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths body div#lifetimeIDFEmailAndProfilePage.reveal-modal.medium.open div.feature-content div.controls a.button.close-modal")).click();
+    }
+
+
+    public static void clickSeventhBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[7]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeSeventhBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+    public static void clickEighthBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[8]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeEighthBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+    public static void clickNinthBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[9]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeNinthBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+    public static void clickTenthBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/table/tbody/tr[10]/td[1]/div/a[1]/span")).click();
+    }
+
+    public static void closeTenthBenefit(WebDriver driver) {
+        driver.findElement(By.xpath("html/body/div[7]/div/div[2]/a")).click();
+    }
+
+}
